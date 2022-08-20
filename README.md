@@ -1,6 +1,6 @@
 # Github Users App with React & TypeScript
 
-[See the page](https://github-users.vercel.app/)
+[See the page](https://github-users-iota.vercel.app/)
 
 * I made an app which helps people to search and find Github users.
 * I used Github API to get the user datas.
