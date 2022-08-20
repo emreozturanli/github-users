@@ -1,6 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-// import type { RootState } from "../app/store";
 import { IUser } from "../types/interfaces";
 
 // Define a type for the slice state
