@@ -2,7 +2,7 @@ import {store} from './app/store'
 import {Provider} from 'react-redux'
 import Header from './components/Header';
 import Search from './components/Search';
-import Main from './components/Main';
+import Main from './components/Main/Main';
 
 function App() {
   return (
