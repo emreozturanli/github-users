@@ -11,7 +11,7 @@ const Info = () => {
             <RiGitRepositoryLine size={35} className='bg-orange-200 text-orange-600 rounded-full p-1'/>
             <div>
                 <span className='font-bold'>{user.public_repos}</span>
-                <p className='text-gray-400'>Repositories</p>
+                <p className='text-gray-400'>Repos</p>
             </div>
         </div>
         <div className=" bg-white shadow-lg flex  items-center gap-8 md:gap-4 rounded-md py-2 px-4">

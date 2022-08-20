@@ -24,16 +24,16 @@ const UserInfo = () => {
                 <div className='md:pl-4 flex flex-col gap-4' >
                     <div className='flex items-center gap-10'>
                         <ImOffice size={20} className='text-blue-500'/>
-                        <p>{user.company ? user.company : 'Open to work'}</p>
+                        <p className='p-1'>{user.company ? user.company : 'Open to work'}</p>
                     </div>
                     <div className='flex items-center gap-10'>
                         <ImLocation2 size={20} className='text-blue-500'/>
-                        <p>{user.location}</p>
+                        <p className='p-1'>{user.location}</p>
 
                     </div>
                     <div className='flex items-center gap-10'>
                         <ImLink size={20} className='text-blue-500'/>
-                        <a href={user.blog}>{user.blog}</a>
+                        <a href={user.blog} className='hover:bg-slate-50 rounded-md p-1 text-orange-600'>{user.blog}</a>
 
                     </div>
                 </div>
