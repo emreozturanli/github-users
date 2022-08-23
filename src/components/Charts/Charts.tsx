@@ -54,10 +54,6 @@ const barData : IData[] | any = Object.values(stars).sort((a : any, b: any)=>{
    return b.value - a.value
   }).slice(0, 5)
 
-  console.log(barData)
-
-
-
   return (
     <section className="max-w-3xl m-auto  px-4 mb-6 ">
       <Pie data={pieData}/>
